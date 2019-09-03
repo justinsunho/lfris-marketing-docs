@@ -21,7 +21,7 @@ module.exports = exports.onCreateNode = ({ node, actions, getNode}) => {
 
 		const {relativePath} = getNode(node.parent);
 
-		if (needsAuth === undefined) {
+		if (needsAuth === undefined && process.env.NODE_ENV !== 'development') {
 			needsAuth = true;
 		}
 
