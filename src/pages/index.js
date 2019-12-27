@@ -38,7 +38,7 @@ const Index = ({location}) => {
 						<Card
 							color='blue'
 							direction='horizontal'
-							href='/web/landing-page-builder/landing-page-fragment-templates'
+							href='/web/landing-page-builder/creating-a-landing-page-with-modern-site-building'
 							icon={<Icon name='dxpIcon' />}
 							title='Web'
 						/>
@@ -56,7 +56,7 @@ const Index = ({location}) => {
 						<Card
 							color='blue'
 							direction='horizontal'
-							href='/operations/mark-ops-only/funnel-stages-detailed-doc'
+							href='/operations/hub-spot/automatic-qualification-workflows'
 							icon={<Icon name='dxpIcon' />}
 							title='Operations'
 						/>
@@ -85,7 +85,7 @@ const Index = ({location}) => {
 						<Card
 							color='blue'
 							direction='horizontal'
-							href='/general/marketing-documentation-template'
+							href='/general/writing-marketing-documentation'
 							icon={<Icon name='dxpIcon' />}
 							title='General'
 						/>
